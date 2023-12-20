@@ -13,7 +13,7 @@
 title: Stanislas music dream - Road to Hollywood !
 
 # Your name to show in the footer
-author: LearningTheSecretsOfData team <\br> - Xavier Ogay, David Schroeter, Luca Carroz, Joris Monnet, Paulo Ribeiro de Carvalho -
+author: "<b>LearningTheSecretsOfData Team</b> <br> - Xavier Ogay, David Schroeter, Luca Carroz, Joris Monnet, Paulo Ribeiro de Carvalho - <br>"
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -52,7 +52,7 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   # email: "someone@example.com"
-  github: LearningTheSecretsOfData
+  #github: LearningTheSecretsOfData
 
 ###########################
 # --- General options --- #
@@ -106,7 +106,7 @@ navbar-var-length: false
 #footer-link-col: "#404040"
 #footer-hover-col: "#0085A1"
 
-navbar-col: "#333333"           # Darker background for the navbar
+navbar-col: "#00101f"           # Darker background for the navbar
 navbar-text-col: "#EAEAEA"      # Light text for contrast
 navbar-border-col: "#444444"    # Slightly lighter border color for some contrast
 page-col: "#181818"             # Dark background for the page
@@ -124,7 +124,7 @@ footer-hover-col: "#1C86EE"     # Same as link hover for consistency
 
 #navbar-img: "/assets/img/bgimage.png"
 #footer-img: "/assets/img/bgimage.png"
-#page-img: "/assets/img/bgimage.png"
+page-img: "/assets/img/LSD.png"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
 #mobile-theme-col: "#0085A1"
