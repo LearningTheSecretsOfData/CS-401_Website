@@ -36,8 +36,11 @@ Stanislas applied these insights to the creation of a soundtrack for the blockbu
 ### Commercial Success
 The soundtrack topped sales charts, outperforming expectations based on historical data for similar films.
 {% include Q7_histogram.html %}
+
 {% include Q7_scatter.html %}
+
 {% include Q7_year_scatter.html %}
+
 {% include Q7_correlation_heatmap.html %}
 ### Critical Acclaim
 "Epic Journey's" score received widespread acclaim, with particular emphasis on its innovative blend of traditional and modern musical elements.
