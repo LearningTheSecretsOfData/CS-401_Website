@@ -23,6 +23,8 @@ Our analysis centers on a dataset comprising variables such as melody popularity
 ### Melodic Patterns
 The data revealed that certain melodic patterns and progressions correlated with higher audience engagement, particularly in the adventure and romance genres.
 
+{% include heat_map_world.html %}
+
 ### Rhythmic Dynamics
 Through spectral analysis, Stanislas identified optimal tempos and rhythmic patterns that were common in top-charting soundtracks, which he then integrated into his compositions.
 
