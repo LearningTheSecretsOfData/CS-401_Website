@@ -65,7 +65,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Road-to-holywood][product-screenshot]](https://learningthesecretsofdata.github.io/CS-401_Website/)
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
@@ -179,3 +179,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [Plotly-url]: https://plotly.com/
 [BeautifulJekyll.com]: https://img.shields.io/badge/Beautiful%20Jekyll-%23FF0000.svg?style=for-the-badge&logo=Jekyll&logoColor=white
 [BeautifulJekyll-url]: https://beautifuljekyll.com/
+[product-screenshot]: assets/img/header_holy.png

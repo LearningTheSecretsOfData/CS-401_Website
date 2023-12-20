@@ -3,7 +3,10 @@ layout: home
 title: Stanislas Music Dream - Road to Hollywood ! 
 subtitle: ADA CS-401 - Team LearningTheSecretsOfData
 cover-img: "/assets/img/header_holy.png"
+gh-repo: epfl-ada/ada-2023-project-learningthesecretsofdata
+gh-badge: [star, fork, follow]
 ---
+
 # Music Dream - Road to Hollywood!
 A Data-Driven Journey of Soundtrack Composer Stanislas
 
