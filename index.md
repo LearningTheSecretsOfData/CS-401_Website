@@ -14,12 +14,17 @@ A Data-Driven Journey of Soundtrack Composer Stanislas
 
 
 ## Q1: Which are the most frequent music genre appearing in movies ?
+
+#### Histogram of the most frequent music genres
 {% include Q1_histogram.html %}
 
+#### Pie chart of the Top 20 frequent music genres
 {% include Q1_pie.html %}
 
+#### Slider to choose the minimum number of counts for the music genres
 {% include Q1_slider.html %}
 
+#### Slider to choose the minimum number of counts for the music genres without soundtrack in names
 {% include Q1_slider_without_soundtrack.html %}
 
 
