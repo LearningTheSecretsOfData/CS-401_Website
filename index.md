@@ -14,6 +14,14 @@ A Data-Driven Journey of Soundtrack Composer Stanislas
 
 
 ## Q1: Which are the most frequent music genre appearing in movies ?
+{% include Q1_histogram.html %}
+
+{% include Q1_pie.html %}
+
+{% include Q1_slider.html %}
+
+{% include Q1_slider_without_soundtrack.html %}
+
 
 ## Q2: What is the average composer's age at their : 
 - ### first movie appearance ?
@@ -22,7 +30,7 @@ The average age of the composer at his first movie is:
  **12490.663 days**
 {% include Q2_histogram.html %}
 
-![Q1_plot1](/assets/img/Q2/c_age_first_appearance_years_Q2.png)
+![Q2_plot1](/assets/img/Q2/c_age_first_appearance_years_Q2.png)
 
 - ### biggest box office revenue ?
 The average age of the composer at his highest box office revenue is:
@@ -30,7 +38,7 @@ The average age of the composer at his highest box office revenue is:
 
 {% include Q2_2_histogram.html %}
 
-![Q2_plot1](/assets/img/Q2/c_age_highest_revenue_years_Q2.png)
+![Q2_plot2](/assets/img/Q2/c_age_highest_revenue_years_Q2.png)
 
 ## Q3: How the top composers' career progress over the years ?
 
