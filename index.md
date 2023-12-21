@@ -11,54 +11,58 @@ footer-extra: epfl.html
 # Music Dream - Road to Hollywood!
 A Data-Driven Journey of Soundtrack Composer Stanislas
 
-## Executive Summary
-This report follows the remarkable trajectory of Stanislas, a soundtrack composer whose data-driven approach to music led to the success of a major Hollywood movie.
 
-## Introduction
-In the ever-evolving landscape of film music, Stanislas emerged as a composer who not only understood the artistry of melody but also the power of data analysis in crafting a successful soundtrack.
 
-## Background
-Stanislas, once a modest music producer, utilized a unique method that incorporated data analytics to understand what resonates with audiences. His approach involved dissecting successful soundtracks across genres and analyzing their structures, rhythms, and audience reception.
+## Q1: Which are the most frequent music genre appearing in movies ?
 
-## Methodology
-Our analysis centers on a dataset comprising variables such as melody popularity, soundtrack sales, film genre success rates, and audience engagement metrics. This data was meticulously collected and analyzed to inform the composition process.
+## Q2: What is the average composer's age at their : 
+- ### first movie appearance ?
+The average age of the composer at his first movie is:
+ **34.198 years** or
+ **12490.663 days**
+{% include Q2_histogram.html %}
 
-## Analysis
-### Melodic Patterns
-The data revealed that certain melodic patterns and progressions correlated with higher audience engagement, particularly in the adventure and romance genres.
+![Q1_plot1](/assets/img/Q2/c_age_first_appearance_years_Q2.png)
+
+- ### biggest box office revenue ?
+The average age of the composer at his highest box office revenue is:
+ **41.891 years** or **15300.559 days**
+
+{% include Q2_2_histogram.html %}
+
+![Q2_plot1](/assets/img/Q2/c_age_highest_revenue_years_Q2.png)
+
+## Q3: How the top composers' career progress over the years ?
+
+![Q3_plot1](/assets/img/Q3/Q3_barplot.png)
+
+![Q3_plot2](/assets/img/Q3/Q3_lineplot.png)
+
+![Q3_plot3](/assets/img/Q3/Q3_lineplot_revenue.png)
+
+
+## Q4: Where do composers come from ?
 
 {% include heat_map_world.html %}
 
-### Rhythmic Dynamics
-Through spectral analysis, Stanislas identified optimal tempos and rhythmic patterns that were common in top-charting soundtracks, which he then integrated into his compositions.
+## Q5: Does composer's gender matter ?
 
-### Emotional Resonance
-Sentiment analysis of audience feedback highlighted the importance of a soundtrack's emotional alignment with the narrative, influencing Stanislas's choice of chords and instrumentation.
+![Q5_plot1](/assets/img/Q5/Q5_barplot.png)
 
-## Implementation
-Stanislas applied these insights to the creation of a soundtrack for the blockbuster film "Epic Journey." The music was not only a commercial success but also pivotal in the movie's achievement of several awards.
+![Q5_plot2](/assets/img/Q5/Q5_barplot_stacked.png)
 
-## Results
-### Commercial Success
-The soundtrack topped sales charts, outperforming expectations based on historical data for similar films.
+## Q6: Does having a personal website correlate with the composers' success ?
+
+![Q6_plot1](/assets/img/Q6/Q6_boxplot.png)
+
+## Q7: Is there a correlation between box office revenue and movie's playlist popularity ?
+
 {% include Q7_histogram.html %}
 
 {% include Q7_scatter.html %}
 
+Pearsons correlation: **0.392**
+
 {% include Q7_year_scatter.html %}
 
 {% include Q7_correlation_heatmap.html %}
-### Critical Acclaim
-"Epic Journey's" score received widespread acclaim, with particular emphasis on its innovative blend of traditional and modern musical elements.
-
-### Awards
-The film won numerous awards, including Best Original Score, validating Stanislas's data-informed compositional strategy.
-
-## Conclusion
-Stanislas's success underscores the potential of data analytics in the creative process of composing film music. His story is a testament to the synergy between art and science, and "Music Dream - Road to Hollywood!" is a narrative that will inspire future generations of composers.
-
-## Recommendations
-Further research is suggested to expand the dataset and refine analytical models, potentially offering even greater insights into the composition of successful film music.
-
-## Acknowledgments
-We extend our gratitude to the film studios, music production teams, and data scientists whose collaboration made this analysis possible.
