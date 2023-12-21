@@ -16,22 +16,24 @@
     <img src="assets/img/LSD_trans.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Stanislas' music dream : Road to Hollywood !</h3>
+<h3 align="center">Stanislas' Music Dream : Road to Hollywood !</h3>
 
   <p align="center">
     An awesome journey into Applied Data Analysis through movie dataset!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://learningthesecretsofdata.github.io/CS-401_Website/"><strong>Explore the Website »</strong></a>
   </p>
 </div>
 
+---
+
+**Authors:** [Luca Carroz](https://people.epfl.ch/emilie.carroz), [David Schroeter](https://people.epfl.ch/david.schroeter),
+[Xavier Ogay](https://people.epfl.ch/xavier.ogay), [Joris Monnet](https://people.epfl.ch/joris.monnet),
+[Paulo Ribeiro de Carvalho](https://people.epfl.ch/paulo.ribeirodecarvalho)
+
+**Project Mentor:** [Aoxiang Fan](https://people.epfl.ch/aoxiang.fan) ([Email](mailto:aoxiang.fan@epfl.ch))
+
+---
 
 
 <!-- TABLE OF CONTENTS -->
@@ -41,22 +43,22 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#abstract">Abstract</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
+    <li><a href="#research-questions">Research Questions</a></li>
+    <li><a href="#dataset-enrichment-method">Dataset Enrichment Method</a></li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#methods">Methods</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#data-loading">Data Loading</a></li>
+        <li><a href="#data-cleaning">Data Cleaning</a></li>
+        <li><a href="#data-visualization">Data Visualization</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#proposed-timeline">Timeline</a></li>
+    <li><a href="#organization-within-the-team">Organization within the Team</a></li>
   </ol>
 </details>
 
@@ -67,24 +69,22 @@
 
 [![Road-to-holywood][product-screenshot]](https://learningthesecretsofdata.github.io/CS-401_Website/)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+### Abstract
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+A 20-year-old aspiring musician, Stanislas, fueled by a passion for the film industry, embarks on a quest to launch his
+career. His ultimate dream? To hear one of his productions featured in a Hollywood film and become one of the planet's
+top composers. To increase his chances, he turns to a team of Data Scientists known as LSD.
 
-Use the `BLANK_README.md` to get started.
+The "LearningtheSecretsofData" team's mission is to identify trends shared among successful music composers and compositions, ultimately
+optimizing choices for our young musician. This is not an easy task but the team is driven by the wish of helping
+Stanislas. How could they provoke a cascADA of successful choices in Stany career.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+Which music genre Stany should he focus on? Will this new direction be enough for him to conquers the show business?
+Maybe he may invest in a ludicrous website to promote himself? Or should he even consider changing Nationality to
+achieve his goal? Let’s see what’s the plan LSD had concocted for Stanislas.
 
 ### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [![Python][Python.org]][Python-url]
 * [![Plotly][Plotly.com]][Plotly-url]
@@ -93,83 +93,116 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Research Questions
 
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+1) Which are the most frequent music genre appearing in movies ?
+2) What is the average composer's age at their :
+    - first movie appearance ?
+    - biggest box office revenue ?
+3) How the top composers' career progress over the years ?
+4) Where do composers come from ?
+5) Does composer's gender matter ?
+6) Does having a personal website correlate with the composers' success ?
+7) Is there a correlation between box office revenue and movie's playlist popularity ?
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Dataset Enrichment Method
 
+Missing attributes about movie's composers :
 
-<!-- USAGE EXAMPLES -->
-## Usage
+- Name
+- Birthday
+- Gender
+- Homepage
+- Place of birth
+- First appearance in movie credits
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+We use a free to use API ([TMDB](https://www.themoviedb.org/?language=fr)) to enrich our movies' information. Also, some
+important features are missing in some observation, that's why we dropped movies not containing the needed information. A specific
+script has been created to be run once and create our `clean_enrich_movie.pickle` dataset. Go to `enrich_movie_data.py` and
+its linked library `tmdb/tmdbDataLoader.py` for more details on how we retrieved these information.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Missing attributes about composers' musics :
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- Genre
+- Spotify's popularity
 
+To retrieve these information we used the [SpotifyAPI](https://developer.spotify.com/documentation/web-api). Since
+streams count are impossible to collect, we chose to use the [popularity score](https://developer.spotify.com/documentation/web-api/reference/get-track)
+(documentation of score at the end of web page) proposed by the API. Information are stored in `spotify_dataset.pickle`.
+Go to `enrich_music_data.py` and its linked library `spotify/spotify.py` for more details on how we retrieved these information.
 
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+Please note that a personal API key is needed to successfully run the scripts for TMDB ([create key](https://developer.themoviedb.org/reference/intro/getting-started))
+and Spotify ([create key](https://developer.spotify.com/documentation/web-api/tutorials/getting-started)) dataset creation.
+Make sure to create a file `.env` with your API bearer token using the `.env_example` file as template.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Methods
 
+### Data Loading
+
+We load the data from the `clean_enrich_movie.pickle` file. This file contains all the information about the movies and
+the composers. We also load the `spotify_dataset.pickle` file which contains the information about the music genre and
+the popularity of the music. We use the first dataset to answer the questions 2, 3, 4, 5 and 6. We use the second
+dataset to answer the question 1 & 7.
+
+### Data Cleaning
+
+We clean the data by removing the entry with missing value in their features 'name', 'release_date',
+'countries', 'genres'. For missing 'box_office_revenue', we call TMDB API to try to retrieve the information.
+If the API call fails to return a value for the revenue, we remove the entry.
+We also format the release date to integer and sort the data by revenue.
+
+
+### Data Visualization
+
+We will use a GitHub page to present our results. The plots will be interactive and will be created using the `plotly`
+library. Notably, we want to have a world map with the number of composers per country to answer the question 4.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Proposed timeline
+
+```
+├── 20.11.23 - Work Homework 2
+│  
+├── 23.11.23 - Work Homework 2
+│  
+├── 27.11.23 - Work Question 1
+│  
+├── 30.11.23 - Work Question 2
+│  
+├── 04.12.23 - Homework 2 deadline
+│  
+├── 04.12.23 - Work Question 3
+│  
+├── 07.12.23 - Work Questions 4 & 5
+|
+├── 11.12.23 - Work Question 6 & 7
+│
+├── 14.12.23 - Work on visualization/website
+│  
+├── 18.12.23 - Work on visualization/website
+│    
+├── 22.12.23 - Milestone 3 deadline
+│  
+├── 25.12.23 - Merry Christmas!
+
+```
+
+## Organization within the Team
+
+| Xavier       | Paulo   | David        | Luca    | Joris        |
+|--------------|---------|--------------|---------|--------------|
+| Q.7, Website | Q.1 & 4 | Q.2, Website | Q.6 & 5 | Q.3, Website |
+
+## Questions for TAs
+
+None
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -180,3 +213,12 @@ Use this space to list resources you find helpful and would like to give credit 
 [BeautifulJekyll.com]: https://img.shields.io/badge/Beautiful%20Jekyll-%23FF0000.svg?style=for-the-badge&logo=Jekyll&logoColor=white
 [BeautifulJekyll-url]: https://beautifuljekyll.com/
 [product-screenshot]: assets/img/header_holy.png
+
+
+
+
+
+
+
+
+
