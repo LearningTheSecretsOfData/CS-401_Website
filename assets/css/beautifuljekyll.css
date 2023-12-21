@@ -17,7 +17,8 @@ body {
   position: relative;
   background-color: {{ site.page-col | default: "#FFFFFF" }};
   {% if site.page-img %}
-  background-image: url("{{ site.baseurl }}/assets/img/left_side.png"), url("{{ site.baseurl }}/assets/img/right_side.png");
+  background-image: url({{ "/assets/img/left_side.png" | relative_url }}), url({{ "/assets/img/right_side.png" | relative_url }});
+
   background-attachment: fixed, fixed;
   background-repeat: no-repeat, no-repeat;
   background-size: 40% 100%, 40% 100%;
