@@ -69,11 +69,21 @@ the prominent birthplaces of top composers, with Germany, Japan, and India follo
 
 ## Gender
 
-In this global tapestry, an unsettling truth comes to light – the stark scarcity of women in this domain.
+In analyzing the design landscape, a disturbing fact emerges – a significant underrepresentation of women in this art form.
 
 {% include Q5_bar.html %}
 
+Despite the vibrant differences observed across genres, 
+eras and places of birth in films, the gender diversity in 
+movie composers remains a challenge.
+
 {% include Q5_bars.html %}
+
+Stanislas, as he makes his way in music, has a unique opportunity
+to contribute to positive change. Recognizing the importance of
+promoting gender diversity, it can actively seek solidarity and
+develop policies that promote and elevate underrepresented 
+voices.
 
 ## Personal Website
 
