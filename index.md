@@ -120,9 +120,9 @@ visualizations, serves as a guiding note in his journey toward Hollywood.
 
 {% include Q7_scatter.html %}
 
-The LSD team discovered interesting information about the film industry and wanted to share the findings with Stanislas.
-They noticed a consistent rise in average box office revenue over the years, possibly influenced by factors like inflation.
-Additionally, we observed that more recent movies appear to be more positively correlated with their spotify track popularity
+The LSD team discovers interesting information about the film industry and wanted to share the findings with Stanislas.
+They notice a consistent rise in average box office revenue over the years, possibly influenced by factors like inflation.
+Additionally, they observe that more recent movies appear to be more positively correlated with their spotify track popularity
 over the years, indicating the potential significance of the new highly connected generation.
 
 {% include Q7_correlation_heatmap.html %}
