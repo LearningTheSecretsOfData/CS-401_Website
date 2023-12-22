@@ -88,7 +88,7 @@ In this global tapestry, an unsettling truth comes to light – the stark scarci
 
 ![Q5_plot1](/assets/img/Q5/Q5_barplot.png)
 
-![Q5_plot2](/assets/img/Q5/Q5_barplot_stacked.png)
+{% include Q5_graph.html %}
 
 ## Q6: Does having a personal website correlate with the composers' success ?
 
