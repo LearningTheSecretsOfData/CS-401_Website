@@ -94,8 +94,9 @@ the team is simply highlighting the observed tendency between these two distinct
 
 {% include Q6_boxplot.html %}
 
-*The 5 horizontal lines represent the minimal, lower quartile, median, 
-upper quartile and maximal values (outliers put appart) respectively, from bottom to top. <br> The notch represents the 95% confidence interval*
+*Box plots are depicted with **five** horizontal lines, illustrating the minimum, lower quartile, median, upper 
+quartile, and maximum values (excluding outliers), arranged from bottom to top. <br> The notch represents the 95% 
+confidence interval*
 
 ## Movie's Playlist VS Box Office
 
