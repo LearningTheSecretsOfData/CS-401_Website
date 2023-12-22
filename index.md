@@ -22,17 +22,14 @@ of the most frequent music genres.
 {% include Q1_histogram.html %}
 
 For the sake of clarity, a chart is presented to facilitate readability, enabling Stanislas to filter movie genres based
-on their frequency in the analyzed dataset. By displaying the top 10 music genres (slider set to k=100), they discover a
+on their frequency in the analyzed dataset. By displaying the top 10 music genres (slider set to 110), they discover a
 realm dominated by orchestral and classic soundtracks, the traditional heartbeat of film music genres.
-
-{% include Q1_slider.html %}
-
-Also, if soundtrack genres meaning the ones with "soundtrack" in the genre appellation are filtered, then we can see
+Also, if soundtrack genres, meaning the ones with "soundtrack" in the genre appellation are filtered, then we can see
 other interesting genre used in movies. Stanislas, who maybe yearns for something beyond the conventional, can also find
 an intriguing pathway - Bollywood. The vibrant and emotive sounds of Indian music offer a unique avenue, a divergence
 from the norm where his creativity could truly flourish.
 
-{% include Q1_slider_without_soundtrack.html %}
+{% include Q1_slider.html %}
 
 ## Expectations Based on Age
 
@@ -50,12 +47,17 @@ reaching the zenith of success, typically around the age of 42.
 
 ## Career Evolution
 
-This trajectory, however, is as diverse as the composers themselves, each thread woven with personal stories, life's
-unpredictable twists, and the ever-present element of chance.
+The following graphs depicts the career evolution of the 25 composers who have contributed in the highest number of movies.
+This trajectory, however, is as diverse as the composers themselves, each thread woven with personal stories, life's unpredictable twists, and the ever-present element of chance. 
+And yet, some trends appears for most of these composers: most of them begin by a period with fewer films projects early on, followed by a significant increase and a gradual decline over time.
 
 {% include Q3_number_of_movies_per_year.html %}
 
+Interestingly, a shared pattern emerges among the composers when examining the progression of box office revenue from the films they've been involved in. Indeed, a significant number of them achieve their revenue peak either during or immediately after the peak of their movie contributions, followed by a subsequent decline. This decline aligns with a decrease in the number of films they undertake which is a logical correlation in their evolving careers. For examplle, this is visible with John Williams.
+
 {% include Q3_box_office_revenue_per_year.html %}
+
+From this information, Stanny can draw some conclusions: He should work on the maximum number of movies possible while young. This would afford him the opportunity to ascend in his career by contributing to increasingly prominent films and then retire peacefully. While this isn't a foolproof and immutable recipe for success, it appears to be a common trend among top composers, at the very least!
 
 ## Place of Birth
 
@@ -68,9 +70,9 @@ the prominent birthplaces of top composers, with Germany, Japan, and India follo
 
 In this global tapestry, an unsettling truth comes to light – the stark scarcity of women in this domain.
 
-![Q5_plot1](/assets/img/Q5/Q5_barplot.png)
+{% include Q5_bar.html %}
 
-{% include Q5_graph.html %}
+{% include Q5_bars.html %}
 
 ## Personal Website
 
