@@ -48,17 +48,27 @@ reaching the zenith of success, typically around the age of 42.
 
 ## Career Evolution
 
-The following graphs depicts the career evolution of the 25 composers who have contributed in the highest number of movies.
-This trajectory, however, is as diverse as the composers themselves, each thread woven with personal stories, life's unpredictable twists, and the ever-present element of chance. 
-And yet, some trends appears for most of these composers: most of them begin by a period with fewer films projects early on, followed by a significant increase and a gradual decline over time.
+The following graphs depicts the career evolution of the 25 composers who have contributed in the highest number of
+movies.
+This trajectory, however, is as diverse as the composers themselves, each thread woven with personal stories, life's
+unpredictable twists, and the ever-present element of chance.
+And yet, some trends appears for most of these composers: most of them begin by a period with fewer films projects early
+on, followed by a significant increase and a gradual decline over time.
 
 {% include Q3_number_of_movies_per_year.html %}
 
-Interestingly, a shared pattern emerges among the composers when examining the progression of box office revenue from the films they've been involved in. Indeed, a significant number of them achieve their revenue peak either during or immediately after the peak of their movie contributions, followed by a subsequent decline. This decline aligns with a decrease in the number of films they undertake which is a logical correlation in their evolving careers. For examplle, this is visible with John Williams.
+Interestingly, a shared pattern emerges among the composers when examining the progression of box office revenue from
+the films they've been involved in. Indeed, a significant number of them achieve their revenue peak either during or
+immediately after the peak of their movie contributions, followed by a subsequent decline. This decline aligns with a
+decrease in the number of films they undertake which is a logical correlation in their evolving careers. For examplle,
+this is visible with John Williams.
 
 {% include Q3_box_office_revenue_per_year.html %}
 
-From this information, Stanny can draw some conclusions: He should work on the maximum number of movies possible while young. This would afford him the opportunity to ascend in his career by contributing to increasingly prominent films and then retire peacefully. While this isn't a foolproof and immutable recipe for success, it appears to be a common trend among top composers, at the very least!
+From this information, Stanny can draw some conclusions: He should work on the maximum number of movies possible while
+young. This would afford him the opportunity to ascend in his career by contributing to increasingly prominent films and
+then retire peacefully. While this isn't a foolproof and immutable recipe for success, it appears to be a common trend
+among top composers, at the very least!
 
 ## Place of Birth
 
@@ -69,12 +79,13 @@ the prominent birthplaces of top composers, with Germany, Japan, and India follo
 
 ## Gender
 
-In analyzing the design landscape, a disturbing fact emerges – a significant underrepresentation of women in this art form.
+In analyzing the design landscape, a disturbing fact emerges – a significant underrepresentation of women in this art
+form.
 
 {% include Q5_bar.html %}
 
-Despite the vibrant differences observed across genres, 
-eras and places of birth in films, the gender diversity in 
+Despite the vibrant differences observed across genres,
+eras and places of birth in films, the gender diversity in
 movie composers remains a challenge.
 
 {% include Q5_bars.html %}
@@ -82,7 +93,7 @@ movie composers remains a challenge.
 Stanislas, as he makes his way in music, has a unique opportunity
 to contribute to positive change. Recognizing the importance of
 promoting gender diversity, it can actively seek solidarity and
-develop policies that promote and elevate underrepresented 
+develop policies that promote and elevate underrepresented
 voices.
 
 ## Personal Website
@@ -94,29 +105,37 @@ the team is simply highlighting the observed tendency between these two distinct
 
 {% include Q6_boxplot.html %}
 
-*Box plots are depicted with **five** horizontal lines, illustrating the minimum, lower quartile, median, upper 
-quartile, and maximum values (excluding outliers), arranged from bottom to top. <br> The notch represents the 95% 
+*Box plots are depicted with **five** horizontal lines, illustrating the minimum, lower quartile, median, upper
+quartile, and maximum values (excluding outliers), arranged from bottom to top. <br> The notch represents the 95%
 confidence interval*
 
 ## Movie's Playlist VS Box Office
 
-In exploring the correlation between a movie's playlist popularity and 
-its box office revenue, Stanislas finds another layer to his strategy 
-for success. The resonance of a film's soundtrack, reflected in these 
+In exploring the correlation between a movie's playlist popularity and
+its box office revenue, Stanislas finds another layer to his strategy
+for success. The resonance of a film's soundtrack, reflected in these
 visualizations, serves as a guiding note in his journey toward Hollywood.
-Once again before Stanislas gets too hyped up thinking about how he will get famous simply by sharing his music on Spotify, the team of data scientists
-re-explain to him the difference between correlation and causation.
 
 {% include Q7_histogram.html %}
 
 {% include Q7_scatter.html %}
 
+The LSD team discovered interesting information about the film industry and wanted to share the findings with Stanislas.
+They noticed a consistent rise in average box office revenue over the years, possibly influenced by factors like inflation.
+Additionally, we observed that more recent movies appear to be more positively correlated with their spotify track popularity
+over the years, indicating the potential significance of the new highly connected generation.
+
 {% include Q7_correlation_heatmap.html %}
+
+Once again before Stanislas gets too hyped up thinking about how he will get famous simply by sharing his music on
+Spotify, the team of data scientists
+re-explain to him the difference between correlation and causation.
 
 ## Conclusion
 
 As the data story reaches its crescendo, Stanislas stands at a crossroads, armed with insights and a clearer vision for
-his journey. Orchestral and classic soundtracks beckon as his chosen genre, a personal website and a Spotify account as his digital banner,
+his journey. Orchestral and classic soundtracks beckon as his chosen genre, a personal website and a Spotify account as
+his digital banner,
 and an
 unwavering commitment to fostering gender diversity in an industry where it's long overdue. His path is his own, unique
 and unpredictable, shaped by personal choices, and a touch of fortune.
