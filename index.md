@@ -68,9 +68,9 @@ the prominent birthplaces of top composers, with Germany, Japan, and India follo
 
 In this global tapestry, an unsettling truth comes to light – the stark scarcity of women in this domain.
 
-![Q5_plot1](/assets/img/Q5/Q5_barplot.png)
+{% include Q5_bar.html %}
 
-{% include Q5_graph.html %}
+{% include Q5_bars.html %}
 
 ## Personal Website
 
