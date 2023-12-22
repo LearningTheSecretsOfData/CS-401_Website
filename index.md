@@ -52,11 +52,9 @@ reaching the zenith of success, typically around the age of 42.
 This trajectory, however, is as diverse as the composers themselves, each thread woven with personal stories, life's 
 unpredictable twists, and the ever-present element of chance.
 
-![Q3_plot1](/assets/img/Q3/Q3_barplot.png)
+{% include Q3_number_of_movies_per_year.html %}
 
-![Q3_plot2](/assets/img/Q3/Q3_lineplot.png)
-
-![Q3_plot3](/assets/img/Q3/Q3_lineplot_revenue.png)
+{% include Q3_box_office_revenue_per_year.html %}
 
 
 ## Q4: Where do composers come from ?
