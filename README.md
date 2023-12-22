@@ -130,8 +130,15 @@ Missing attributes about composers' musics :
 
 To retrieve these information we used the [SpotifyAPI](https://developer.spotify.com/documentation/web-api). Since
 streams count are impossible to collect, we chose to use the [popularity score](https://developer.spotify.com/documentation/web-api/reference/get-track)
-(documentation of score at the end of web page) proposed by the API. Information are stored in `spotify_dataset.pickle`.
-Go to `enrich_music_data.py` and its linked library `spotify/spotify.py` for more details on how we retrieved these information.
+(documentation of score at the end of web page) proposed by the API. Information are stored in `spotify_dataset.pickle` and `album_id_and_musics.pickle`.
+Go to `enrich_music_data.py`, `enrich_with_spotify_data.py` and its linked library `spotify/spotify.py` for more details on how we retrieved these information.
+
+We had to proceed to a mapping between the movie's name and the album's name so that we could retrieve the popularity score of each tracks of the album. 
+To do so, we used the library [rapidfuzz](https://pypi.org/project/rapidfuzz/) which use the calculation of [FuzzyWuzzy](https://github.com/seatgeek/fuzzywuzzy) to match the movie's name and the album's name. 
+We also leverage the Fuzz ratio with some negative and positive keyword to improve the matching of soundtrack albums. 
+The matching is saved in `movie_album_and_revenue.pickle`. Then the script `enrich_with_spotify_data.py` use the previously generated matching file to retrieve all tracks of the albums. This new dataset is saved to the file `movie_album_and_revenue_with_track_ids.pickle`.
+The popularity score of each album is then computed as the mean of popularity score of each tracks of the corresponding album.
+The script `enrich_with_spotify_data.py` make each API call to retrieve data asynchroneously and in batch to speed up the process. It also save checkpoint of the data retrieved to avoid losing data in case of network error.
 
 Please note that a personal API key is needed to successfully run the scripts for TMDB ([create key](https://developer.themoviedb.org/reference/intro/getting-started))
 and Spotify ([create key](https://developer.spotify.com/documentation/web-api/tutorials/getting-started)) dataset creation.
