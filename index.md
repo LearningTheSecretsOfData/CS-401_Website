@@ -42,14 +42,10 @@ music for a music as a side job/activity and then can be considered apart.
 
 {% include Q2_histogram.html %}
 
-![Q2_plot1](/assets/img/Q2/c_age_first_appearance_years_Q2.png)
-
 This additional plot paints a timeline for Stanislas, in average, a decade of growth and evolution before 
 reaching the zenith of success, typically around the age of 42.
 
 {% include Q2_2_histogram.html %}
-
-![Q2_plot2](/assets/img/Q2/c_age_highest_revenue_years_Q2.png)
 
 ## Q3: How the top composers' career progress over the years ?
 
