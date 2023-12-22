@@ -110,6 +110,8 @@ re-explain to him the difference between correlation and causation.
 
 {% include Q7_scatter.html %}
 
+{% include Q7_correlation_heatmap.html %}
+
 ## Conclusion
 
 As the data story reaches its crescendo, Stanislas stands at a crossroads, armed with insights and a clearer vision for
