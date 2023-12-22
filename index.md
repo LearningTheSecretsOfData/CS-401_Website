@@ -22,8 +22,9 @@ of the most frequent music genres.
 {% include Q1_histogram.html %}
 
 For the sake of clarity, a chart is presented to facilitate readability, enabling Stanislas to filter movie genres based
-on their frequency in the analyzed dataset. By displaying the top 10 music genres (slider set to 110), they discover a
-realm dominated by orchestral and classic soundtracks, the traditional heartbeat of film music genres.
+on their frequency in the analyzed dataset. A slider is suggested to filter movie genres based on those with more than k
+movies associated with them. By displaying the top 10 overall music genres (slider set to k=100), they discover a realm
+dominated by orchestral and classic soundtracks, the traditional heartbeat of film music genres.
 Also, if soundtrack genres, meaning the ones with "soundtrack" in the genre appellation are filtered, then we can see
 other interesting genre used in movies. Stanislas, who maybe yearns for something beyond the conventional, can also find
 an intriguing pathway - Bollywood. The vibrant and emotive sounds of Indian music offer a unique avenue, a divergence
