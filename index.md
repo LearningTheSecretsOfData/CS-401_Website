@@ -99,3 +99,14 @@ Pearsons correlation: **0.392**
 {% include Q7_year_scatter.html %}
 
 {% include Q7_correlation_heatmap.html %}
+
+## Conclusion
+
+As the data story reaches its crescendo, Stanislas stands at a crossroads, armed with insights and a clearer vision for 
+his journey. Orchestral and classic soundtracks beckon as his chosen genre, a personal website as his digital banner, and an 
+unwavering commitment to fostering gender diversity in an industry where it's long overdue. His path is his own, unique 
+and unpredictable, shaped by personal choices, and a touch of fortune.
+
+Stanislas' story is more than a tale of music and movies; it's a narrative of how data can illuminate paths previously
+unseen and how one individual, fueled by passion and guided by information, can aspire to not just succeed but also to 
+inspire change.
