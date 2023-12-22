@@ -14,50 +14,38 @@ a fervent passion for the film industry. Eager to hear his compositions resonate
 the "LearningtheSecretsofData" (LSD) team, a group of Data Scientists on a mission to optimize choices for the budding 
 composer.
 
-## Q1: Which are the most frequent music genre appearing in movies ?
+## Music Genres
+The LSD team’s investigation first turns to the rhythms and melodies that define cinema. They computed the histogram
+of the most frequent music genres.
 
-The LSD team’s investigation first turns to the rhythms and melodies that define cinema. They discover a realm dominated
-by orchestral and classic soundtracks, the traditional heartbeat of film music genres. Yet, for Stanislas, who maybe 
-yearns for something beyond the conventional, there lies an intriguing pathway - Bollywood. The vibrant and emotive 
-sounds of Indian music offer a unique avenue, a divergence from the norm where his creativity could truly flourish.
-
-#### Histogram of the most frequent music genres
 {% include Q1_histogram.html %}
 
-#### Pie chart of the Top 20 frequent music genres
-{% include Q1_pie.html %}
+For the sake of clarity, a chart is presented to facilitate readability, enabling Stanislas to filter movie genres based 
+on their frequency in the analyzed dataset. By displaying the top 10 music genres (slider set to k=100), they discover a realm 
+dominated by orchestral and classic soundtracks, the traditional heartbeat of film music genres.
 
-#### Slider to choose the minimum number of counts for the music genres
+<!--- old chart, redundant with the one below {% include Q1_pie.html %} --->
 {% include Q1_slider.html %}
 
-#### Slider to choose the minimum number of counts for the music genres without soundtrack in names
+Yet, for Stanislas, who maybe yearns for something beyond the conventional, there lies an intriguing pathway - Bollywood. 
+The vibrant and emotive sounds of Indian music offer a unique avenue, a divergence from the norm where his creativity 
+could truly flourish.
+
 {% include Q1_slider_without_soundtrack.html %}
 
-
-## Q2: What is the average composer's age at their : 
-- ### first movie appearance ?
+## Expectations Based on Age
 
 As the journey unfolds, age and time emerge as critical elements in a composer's voyage to success. The team finds that 
 composers typically make their first movie appearance around the age of 34, though this number skews younger to about 31 
-when outliers* are set aside. 
+when outliers are set aside. Outliers can be seen as actors (or others people already in the industry) that produce 
+music for a music as a side job/activity and then can be considered apart.
 
-*outliers can be seen as actors (or others people already in the industry) that produce music for a music as a side job 
-/activity and then can be considered apart.
-
-The average age of the composer at his first movie is:
- **34.198 years** or
- **12490.663 days**
 {% include Q2_histogram.html %}
 
 ![Q2_plot1](/assets/img/Q2/c_age_first_appearance_years_Q2.png)
 
-- ### biggest box office revenue ?
-
-This revelation paints a timeline for Stanislas, in average a decade of growth and evolution before 
+This additional plot paints a timeline for Stanislas, in average, a decade of growth and evolution before 
 reaching the zenith of success, typically around the age of 42.
-
-The average age of the composer at his highest box office revenue is:
- **41.891 years** or **15300.559 days**
 
 {% include Q2_2_histogram.html %}
 
