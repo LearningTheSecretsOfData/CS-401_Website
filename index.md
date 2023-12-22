@@ -99,19 +99,16 @@ upper quartile and maximal values (outliers put appart) respectively, from botto
 
 ## Movie's Playlist VS Box Office
 
-The melody of success isn't just in the composition but also in its reach. A positive correlation surfaces between the
-popularity of a movie's playlist and its box office revenue, adding another layer to Stanislas' strategy for success.
-
-{% include Q7_histogram.html %}
-
-{% include Q7_scatter.html %}
-
 In exploring the correlation between a movie's playlist popularity and 
 its box office revenue, Stanislas finds another layer to his strategy 
 for success. The resonance of a film's soundtrack, reflected in these 
 visualizations, serves as a guiding note in his journey toward Hollywood.
 Once again before Stanislas gets too hyped up thinking about how he will get famous simply by sharing his music on Spotify, the team of data scientists
 re-explain to him the difference between correlation and causation.
+
+{% include Q7_histogram.html %}
+
+{% include Q7_scatter.html %}
 
 ## Conclusion
 
