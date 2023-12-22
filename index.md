@@ -66,7 +66,7 @@ The average age of the composer at his highest box office revenue is:
 
 ## Q6: Does having a personal website correlate with the composers' success ?
 
-![Q6_plot1](/assets/img/Q6/Q6_boxplot.png)
+{% include Q6_boxplot.html %}
 
 ## Q7: Is there a correlation between box office revenue and movie's playlist popularity ?
 
