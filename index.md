@@ -103,12 +103,17 @@ popularity of a movie's playlist and its box office revenue, adding another laye
 
 {% include Q7_scatter.html %}
 
-Pearsons correlation: **0.392**
+In exploring the correlation between a movie's playlist popularity and 
+its box office revenue, Stanislas finds another layer to his strategy 
+for success. The resonance of a film's soundtrack, reflected in these 
+visualizations, serves as a guiding note in his journey toward Hollywood.
+Once again before Stanislas gets too hyped up thinking about how he will get famous simply by sharing his music on Spotify, the team of data scientists
+re-explain to him the difference between correlation and causation.
 
 ## Conclusion
 
 As the data story reaches its crescendo, Stanislas stands at a crossroads, armed with insights and a clearer vision for
-his journey. Orchestral and classic soundtracks beckon as his chosen genre, a personal website as his digital banner,
+his journey. Orchestral and classic soundtracks beckon as his chosen genre, a personal website and a Spotify account as his digital banner,
 and an
 unwavering commitment to fostering gender diversity in an industry where it's long overdue. His path is his own, unique
 and unpredictable, shaped by personal choices, and a touch of fortune.
