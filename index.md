@@ -105,8 +105,6 @@ popularity of a movie's playlist and its box office revenue, adding another laye
 
 Pearsons correlation: **0.392**
 
-{% include Q7_year_scatter.html %}
-
 ## Conclusion
 
 As the data story reaches its crescendo, Stanislas stands at a crossroads, armed with insights and a clearer vision for
