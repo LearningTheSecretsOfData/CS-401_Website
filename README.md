@@ -165,8 +165,9 @@ We also format the release date to integer and sort the data by revenue.
 
 ### Data Visualization
 
-We will use a GitHub page to present our results. The plots will be interactive and will be created using the `plotly`
-library. Notably, we want to have a world map with the number of composers per country to answer the question 4.
+We use a GitHub page to present our results. The plots are interactive and were created using the `plotly`
+library. Notably, we used a world map with the number of composers per country to answer the question 4. 
+We also used pie charts, bar charts, line plots, and more. Everything is interactive!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -208,6 +209,14 @@ library. Notably, we want to have a world map with the number of composers per c
 ## Questions for TAs
 
 None
+
+## Contributions of the Team members
+
+| Xavier       | Paulo   | David        | Luca    | Joris        |
+|--------------|---------|--------------|---------|--------------|
+| Q.7          | Q.1     | Q.2          | Q.6     | Q.3          |
+| API Spotify  | Q.4     | API TMDB     | Q.5     | API Spotify  |
+| Website      | Website | Website      | Website | Website      |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
